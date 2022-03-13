@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Herr+Von+Muellerhoff&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Herr+Von+Muellerhoff&family=Playfair+Display:ital@1&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Fredoka&family=Herr+Von+Muellerhoff&family=Lilita+One&family=M+PLUS+Rounded+1c:wght@500&family=Playfair+Display:ital@1&family=Roboto:ital,wght@1,700&family=Shippori+Antique+B1&display=swap');
+
+body {
+    background-color: rgb(59, 53, 53);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(0, 198, 248);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header-logo {
+    font-size: 16px;
+    letter-spacing: 2px;
+    border-bottom: 4px solid rgb(12, 81, 83);
+    border-radius: 35px;
+    padding-bottom: 5px;
+    border-top: 4px solid rgb(22, 230, 219);
+    border-radius: 35px;
+    padding-top: 5px;
+}
+
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+ header {
+    background-image: url("https://cdn.wallpapersafari.com/33/62/AwBq7b.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left: 60px;
+    
+}
+
+#welcome {
+    margin-left: 10px;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 5.5rem;
+    font-weight: 100;
+    color: azure;
+    font-family: 'Cherry Swash', cursive;
+    letter-spacing: 3px;
+}
+h3 {
+    font-weight: 200;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+#getstart {
+    font-family: 'Shippori Antique B1', sans-serif;
+   
+}
+.btn-coffe {
+    display: block;
+    background-color: rgb(56, 196, 238);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 40px 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#yazi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+#github {
+    float: left;
+}
+
+#gmail {
+    float: right;
+}
+
+#smilecoffe {
+    width: 30%;
+    height: auto;
+}
